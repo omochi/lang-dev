@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0E0B25D3C53DCD08242E8E /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6478F725BEDF7666F620E224 /* main.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6478F725BEDF7666F620E224 /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		A3A8C354B3170736BD576051 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5D0985D58DA2995238ECE7 /* smith-cop.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = "smith-cop.gyp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		021A813C3D3A6160DCBF6569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B920B18D8EF6B81E8AAFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A8C354B3170736BD576051 /* main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC0A9F73C786D669B466546 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6478F725BEDF7666F620E224 /* main.cc */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+		A3F6C97AB441AE9978FFBEB4 = {
+			isa = PBXGroup;
+			children = (
+				5EC0A9F73C786D669B466546 /* Source */,
+				30B920B18D8EF6B81E8AAFC9 /* Products */,
+				EA10674E981F6114E44038F7 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		EA10674E981F6114E44038F7 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				AF5D0985D58DA2995238ECE7 /* smith-cop.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D8DA39AF04995F6958B0408 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2928233BAEB8104E0431D02A /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				4AD80E6D6F2BF1A11568A924 /* Sources */,
+				021A813C3D3A6160DCBF6569 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = main;
+			productName = main;
+			productReference = A3A8C354B3170736BD576051 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194068B458A07AFF322EFF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 30CBB702F5A9B6A41A0858E1 /* Build configuration list for PBXProject "smith-cop" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = A3F6C97AB441AE9978FFBEB4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D8DA39AF04995F6958B0408 /* main */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD80E6D6F2BF1A11568A924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E0B25D3C53DCD08242E8E /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		101BE92247004B7AEC354507 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = include;
+				PRODUCT_NAME = main;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Default;
+		};
+		50C0B2318A98C70367F514D4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2928233BAEB8104E0431D02A /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101BE92247004B7AEC354507 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		30CBB702F5A9B6A41A0858E1 /* Build configuration list for PBXProject "smith-cop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50C0B2318A98C70367F514D4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194068B458A07AFF322EFF36 /* Project object */;
+}
